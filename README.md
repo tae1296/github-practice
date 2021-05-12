@@ -2,6 +2,7 @@
 
 기본 MD(MarkDown language) - HTML의 간소화 버전
 
-HTML도 사용 가능
+MD제작 환경에서 HTML도 사용 가능함.
 
-<h1 tag> = '#' 
+MD 참고 사이트
+https://guides.github.com/features/mastering-markdown/
