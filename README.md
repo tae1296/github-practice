@@ -15,12 +15,12 @@ https://guides.github.com/features/mastering-markdown/
 
 ### HTML language 사용
 
-# 목차 만들기
+# 5월 2째 주
 
 ### HTML 사용 번호없는 리스트 ul
 <ul>
   <li><a href="./5_13.md">5월 13일</a></li>  
-  <li>리스트2</li>
+  <li><a href="./5~14.md">5월 14</a></li>
   <li>리스트3</li>
 </ul>
 
