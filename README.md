@@ -19,8 +19,8 @@ https://guides.github.com/features/mastering-markdown/
 
 ### HTML 사용 번호없는 리스트 ul
 <ul>
-  <li><a href="./5_13.md">5월 13일</a></li>  
-  <li><a href="./5~14.md">5월 14</a></li>
+  <li><a href="./5_13.md">5.13</a></li>  
+  <li><a href="./5~14.md">5.14</a></li>
   <li>리스트3</li>
 </ul>
 
