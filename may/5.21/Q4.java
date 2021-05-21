@@ -19,37 +19,18 @@ public class Q4 {
 			num[i]=sc.nextInt();
 			if(num[i]==0 || num[i]>=100) {
 				break;
-			}else {
-				if(num[i]/10==0) {
-					count[0]++;
-					
-				}else if(num[i]/10==1) {
-					count[1]++;
-					
-				}else if(num[i]/10==2) {
-					count[2]++;
-					
-				}else if(num[i]/10==3) {
-					count[3]++;
-					
-				}else if(num[i]/10==4) {
-					count[4]++;
-					
-				}else if(num[i]/10==5) {
-					count[5]++;
-					
-				}else if(num[i]/10==6) {
-					count[6]++;
-					
-				}else if(num[i]/10==7) {
-					count[7]++;
-					
-				}else if(num[i]/10==8) {
-					count[8]++;
-					
-				}else if(num[i]/10==9) {
-					count[9]++;
-					
+			}else {				
+				switch(num[i]/10) {
+				case 0: count[0]++; break;
+				case 1: count[1]++; break;
+				case 2: count[2]++; break;
+				case 3: count[3]++; break;
+				case 4: count[4]++; break;
+				case 5: count[5]++; break;
+				case 6: count[6]++; break;
+				case 7: count[7]++; break;
+				case 8: count[8]++; break;
+				case 9: count[9]++; break;
 				}
 			}
 		}
