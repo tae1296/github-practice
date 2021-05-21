@@ -1,9 +1,6 @@
 package chapter5.Question;
 
-import java.util.Arrays;
 import java.util.Scanner;
-
-import chpter5.Score2;
 
 public class StudentMainEx {
 
