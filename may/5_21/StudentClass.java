@@ -19,16 +19,19 @@ public class StudentMain3 {
 		
 		stu2[0].subj2 = new Score2[2];
 		stu2[0].subj2[0] = new Score2();
-		stu2[0].subj2[1] = new Score2();
 		stu2[0].subj2[0].subject = "수학";
 		stu2[0].subj2[0].score = 100;
+
+		stu2[0].subj2[1] = new Score2();
 		stu2[0].subj2[1].subject = "국어";
 		stu2[0].subj2[1].score = 90;
 		
-		System.out.println(stu2[0].studentName +"\t" +stu2[0].address +
-				"\t"+stu2[0].grade+"학년\t"+stu2[0].subj2[0].subject+":"
-				+stu2[0].subj2[0].score+"\t"+stu2[0].subj2[1].subject+":"
-				+stu2[0].subj2[1].score);
+		/*
+		 * System.out.println(stu2[0].studentName +"\t" +stu2[0].address +
+		 * "\t"+stu2[0].grade+"학년\t"+stu2[0].subj2[0].subject+":"
+		 * +stu2[0].subj2[0].score+"\t "+stu2[0].subj2[1].subject+":"
+		 * +stu2[0].subj2[1].score);
+		 */
 		
 		//고길동/ 영등포구/ 3학년/ 수학 70, 국어 80
 		stu2[1].studentName = "고길동";
@@ -37,17 +40,28 @@ public class StudentMain3 {
 		
 		stu2[1].subj2 = new Score2[2];
 		stu2[1].subj2[0] = new Score2();
-		stu2[1].subj2[1] = new Score2();
 		stu2[1].subj2[0].subject = "수학";
 		stu2[1].subj2[0].score = 70;
-		stu2[1].subj2[1].subject = "수학";
+
+		stu2[1].subj2[1] = new Score2();
+		stu2[1].subj2[1].subject = "국어";
 		stu2[1].subj2[1].score = 80;
 		
-		System.out.println(stu2[1].studentName +"\t" +stu2[1].address +
-				"\t"+stu2[1].grade+"학년\t"+stu2[1].subj2[0].subject+":"
-				+stu2[1].subj2[0].score+"\t"+stu2[1].subj2[1].subject+":"
-				+stu2[1].subj2[1].score);
-
+		/*
+		 * System.out.println(stu2[1].studentName +"\t" +stu2[1].address +
+		 * "\t"+stu2[1].grade+"학년\t"+stu2[1].subj2[0].subject+":"
+		 * +stu2[1].subj2[0].score+"\t "+stu2[1].subj2[1].subject+":"
+		 * +stu2[1].subj2[1].score);
+		 */
+		
+		for(Student2 stu : stu2) {
+			System.out.print(stu.studentName + "\t"+stu.address + "\t"+stu.grade);
+			for(int i=0;i<2;i++) {
+				System.out.print("\t"+stu.subj2[i].subject+"\t"+stu.subj2[i].score
+					);
+			}
+			System.out.println();
+		}
 	}
 
 }
