@@ -17,7 +17,6 @@ public class puppy {
 		for(int i=0;i<5;i++) {
 			if(str.equals(name[i])) {
 				pos=i;
-			}else {
 			}
 		}
 		if(pos!=-1) {
