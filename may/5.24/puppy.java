@@ -12,17 +12,19 @@ public class puppy {
 		
 		System.out.println("강아지 이름을 입력해주세요");
 		String str=sc.nextLine();
+		int pos=-1;
 		
 		for(int i=0;i<5;i++) {
 			if(str.equals(name[i])) {
-				System.out.println("> "+nick[i]);
-				break;
+				pos=i;
 			}else {
-				System.out.println("등록되지 않았습니다.");
-				break;
 			}
 		}
-		
+		if(pos!=-1) {
+			System.out.println("> "+nick[pos]);
+		}else {
+			System.out.println("등록되지 않았습니다.");
+		}
 
 	}
 
