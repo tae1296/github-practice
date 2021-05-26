@@ -10,7 +10,7 @@ public class primeMain {
 		
 		System.out.println("숫자를 입력해주세요.");
 		N.num=sc.nextInt();
-		System.out.println(N.num);
+		
 		N.primeNum(N.num);
 		N.print();
 	}
