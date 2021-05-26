@@ -4,15 +4,9 @@ import java.util.Arrays;
 
 public class prime {
 	int num;
-	String[] prime;
-	
+	String[] prime;	
 	String str="";
 	
-	public prime() {
-		
-	}
-	
-
 	public void primeNum(int n) {
 		for(int i=2; i<=n;i++) {
 			boolean isPrime=true;
@@ -27,10 +21,6 @@ public class prime {
 			}
 		}
 		prime=str.split(" ");
-		
-	}
-	
-	public void setNum() {
 		
 	}
 	
